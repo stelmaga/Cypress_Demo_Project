@@ -1,0 +1,4 @@
+node_modules
+.prettierrc
+eslint.config.mjs
+prettierignore

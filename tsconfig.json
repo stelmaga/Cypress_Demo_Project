@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["cypress", "node", "mocha", "chai"]
+  },
+  "include": ["cypress/**/*.ts"]
+}

@@ -1,0 +1,19 @@
+{
+  "cucumberautocomplete.steps": ["cypress/e2e/step_definitions/**/*.ts"],
+  "cucumberautocomplete.syncfeatures": "cypress/e2e/features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.customParameters": [
+    {
+      "parameter": "\"[^\"]*\"",
+      "name": "string"
+    },
+    {
+      "parameter": "\\d+",
+      "name": "number"
+    }
+  ],
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
